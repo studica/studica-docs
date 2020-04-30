@@ -32,7 +32,7 @@
 
 /* Change caption color to be more legible */
 .wy-menu > .caption > span.caption-text {
-   color: green;
+   color: yellow;
 }
 
 /* Hide color bar on mobile */
