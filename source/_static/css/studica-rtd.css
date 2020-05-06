@@ -35,6 +35,16 @@
    color: #F7E341;
 }
 
+/* Change the version number to match caption color */
+.wy-side-nav-search>div.version {
+   color: #F7E341;
+}
+
+/* Get rid of that ugly yellow highlight color and replace with something more appealing to the eye */
+.highlight .hll {
+   background-color: #C3E7FF;
+}
+
 /* Hide color bar on mobile */
 @media screen and (max-width: 768px) {
 
