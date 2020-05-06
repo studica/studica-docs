@@ -70,5 +70,12 @@ html_theme_options = {
         'titles_only': True
 }
 
+from sphinx.builders.html import StandaloneHTMLBuilder
+StandaloneHTMLBuilder.supported_image_types = [
+    'image/gif',
+    'image/png',
+    'image/jpg'
+]
+
 def setup(app):
     app.add_css_file('css/studica-rtd.css')

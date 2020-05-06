@@ -8,4 +8,5 @@ Programming
    creating-a-project
    configuring-the-project-for-vmxpi
    base-project-outline/index
+   adding-vendor-libraries
    

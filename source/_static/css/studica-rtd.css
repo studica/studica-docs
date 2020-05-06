@@ -32,7 +32,7 @@
 
 /* Change caption color to be more legible */
 .wy-menu > .caption > span.caption-text {
-   color: yellow;
+   color: #F7E341;
 }
 
 /* Hide color bar on mobile */

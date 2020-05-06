@@ -1,6 +1,8 @@
 Studica Robotics
 ================
 
+Welcome to the Studica Robotics documentation page. Here you will find lots of information and tutorials regarding WorldSkills and FIRST Training.
+
 .. toctree::
    :maxdepth: 1
    :caption: World Skills
@@ -33,4 +35,16 @@ Studica Robotics
    docs/Titan/calibration
    docs/Titan/update
    docs/Titan/troubleshooting
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Contributing
+   
+   docs/Contributing/style-guide
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Issues
+   
+   Report an Issue <https://github.com/studica/studica-docs/issues>
    
