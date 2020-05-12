@@ -13,7 +13,7 @@ Online Installer
          
       Download the installer (32bit or 64bit) `from WPI <https://github.com/wpilibsuite/allwpilib/releases>`__. 
 		
-      .. image:: images/windows/installer-1.png
+      .. figure:: images/windows/installer-1.png
          :align: center
       
       Installing for *All Users* will require admin privileges and install for all users on the machine.
@@ -24,22 +24,22 @@ Online Installer
       
          Due to licensing reasons with VS Code, the installer does not contain it bundled in. To overcome this hit the *Select/Download VS Code* button.
       
-         .. image:: images/windows/installer-2.png
+         .. figure:: images/windows/installer-2.png
             :align: center
          
          This will open up the selector tool.
 
-         .. image:: images/windows/installer-3.png
+         .. figure:: images/windows/installer-3.png
             :align: center
          
          Select the *Download* option and VS Code will be downloaded.
          
-         .. image:: images/windows/installer-4.png
+         .. figure:: images/windows/installer-4.png
             :align: center
          
          Once VS Code is downloaded the window will auto change back to the installer window and *Execute Install* can be run. 
          
-         .. image:: images/windows/installer-5.png
+         .. figure:: images/windows/installer-5.png
             :align: center
       
       **What was just Installed**

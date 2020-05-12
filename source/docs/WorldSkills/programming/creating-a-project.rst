@@ -11,12 +11,12 @@ This guide will show ho to create a Java or C++ project for use in robotics
       
       In the command pallete search for the command ``WPILib: Create a new project``. An example is shown below.
       
-      .. image:: images/java/creating-a-project-1.png
+      .. figure:: images/java/creating-a-project-1.png
          :align: center
         
       This will open the project creator window
       
-      .. image:: images/java/creating-a-project-2.png
+      .. figure:: images/java/creating-a-project-2.png
          :align: center
          
       1. Start by clicking on the *Select a project type (Example or Template)* button and select ``template``
@@ -33,12 +33,12 @@ This guide will show ho to create a Java or C++ project for use in robotics
       
       An example of a filled out project creator is shown below
       
-      .. image:: images/java/creating-a-project-3.png
+      .. figure:: images/java/creating-a-project-3.png
          :align: center
          
       Hit *Generate Project* to finilize the creation of the project. There will be a prompt as shown to open in a new window or the current window. A new window will open another instance of VS Code whereas the current window will close the any open project you have and place this project in the currently opened VS Code window.
       
-      .. image:: images/java/creating-a-project-4.png
+      .. figure:: images/java/creating-a-project-4.png
          :align: center
       
       .. note:: The project will then automaticaly build the for the first time. If the build is not successful constult the troubleshooting section
@@ -56,12 +56,12 @@ This guide will show ho to create a Java or C++ project for use in robotics
       
       In the command pallete search for the command ``WPILib: Create a new project``. An example is shown below.
       
-      .. image:: images/c++/creating-a-project-1.png
+      .. figure:: images/c++/creating-a-project-1.png
          :align: center
         
       This will open the project creator window
       
-      .. image:: images/c++/creating-a-project-2.png
+      .. figure:: images/c++/creating-a-project-2.png
          :align: center
          
       1. Start by clicking on the *Select a project type (Example or Template)* button and select ``template``
@@ -78,12 +78,12 @@ This guide will show ho to create a Java or C++ project for use in robotics
       
       An example of a filled out project creator is shown below
       
-      .. image:: images/c++/creating-a-project-3.png
+      .. figure:: images/c++/creating-a-project-3.png
          :align: center
          
       Hit *Generate Project* to finilize the creation of the project. There will be a prompt as shown to open in a new window or the current window. A new window will open another instance of VS Code whereas the current window will close the any open project you have and place this project in the currently opened VS Code window.
       
-      .. image:: images/c++/creating-a-project-4.png
+      .. figure:: images/c++/creating-a-project-4.png
          :align: center
       
       .. note:: The project will then automaticaly build the for the first time. If the build is not successful constult the troubleshooting section

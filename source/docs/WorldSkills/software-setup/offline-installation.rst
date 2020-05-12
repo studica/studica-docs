@@ -11,7 +11,7 @@ Offline Installer
       
       The offline installation files will be located in the USB provided inside the collection. Locate and run the file named ``WPILibInstaller_Windows64-2020.3.2.exe`` or ``WPILibInstaller_Windows32-2020.3.2.exe`` based on your OS. 
 		
-      .. image:: images/windows/installer-1.png
+      .. figure:: images/windows/installer-1.png
          :align: center
       
       Installing for *All Users* will require admin privileges and install for all users on the machine.
@@ -22,17 +22,17 @@ Offline Installer
       
          Due to licensing reasons with VS Code the installer does not contain it bundled in. To overcome this hit the *Select/Download VS Code* button.
       
-         .. image:: images/windows/installer-2.png
+         .. figure:: images/windows/installer-2.png
             :align: center
          
          This will open up the selector tool.
 
-         .. image:: images/windows/installer-3.png
+         .. figure:: images/windows/installer-3.png
             :align: center
          
          Select the *Select Existing Download* option and then select the file ``OfflineVsCodeFiles-1.41.1.zip``. This will change back to the installer window and *Execute Install* can be run. 
          
-         .. image:: images/windows/installer-5.png
+         .. figure:: images/windows/installer-5.png
             :align: center
          
       **What was just Installed**

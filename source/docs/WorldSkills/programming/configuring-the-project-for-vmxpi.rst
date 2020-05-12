@@ -2,49 +2,6 @@ Configuring the project for VMXpi
 =================================
 
 This guide will show the steps required to configure the project to be deployed to the VMXpi
-
-Gradle Upgrade
---------------
-
-.. tabs::
-
-   .. tab:: Windows
-      
-      The upgrade required for deploying to the VMXpi can be installed online or through the provided usb in the collection. 
-      
-      **Online Only**
-      
-      .. note:: `Git <https://git-scm.com/>`__ is required to grab the updated gradle files from github.
-      
-      Open command prompt and run the following commands
-      
-      .. code-block:: text
-      
-         git clone https://github.com/kauailabs/GradleRIO.git
-         
-         cd GradleRIO
-         
-         gradlew publishToMavenLocal -PlocalPublish
-         
-      The image below shows what a successful publish looks like. If there are any errors please see the troubleshooting section!
-      
-      .. image:: images/windows/configuring-the-project-for-vmxpi-1.png
-         :align: center
-      
-      **Offline Only**
-      
-      In ``C:\Users\user\`` place the ``GradleRIO`` folder which is located in the usb provided in the collection. 
-      
-      Open command prompt and navigate to the GradleRIO folder then run this command
-      
-      .. code-block:: text
-      
-         gradlew publishToMavenLocal -PlocalPublish
-         
-      The image below shows what a successful publish looks like. If there are any errors please see the troubleshooting section!
-      
-      .. image:: images/windows/configuring-the-project-for-vmxpi-2.png
-         :align: center
       
 VS Code Changes
 ---------------
@@ -63,7 +20,7 @@ In VS Code the build.gradle file needs to be changed or replaced to match the co
 
          plugins {
              id "java"
-             id "edu.wpi.first.GradleRIO" version "2020.3.2-VMX"
+             id "com.kauailabs.first.GradleRIO" version "2020.3.2-beta-1"
          }
 
          sourceCompatibility = JavaVersion.VERSION_11
@@ -139,7 +96,7 @@ In VS Code the build.gradle file needs to be changed or replaced to match the co
          plugins {
              id "cpp"
              id "google-test-test-suite"
-             id "edu.wpi.first.GradleRIO" version "2020.3.2-VMX"
+             id "com.kauailabs.first.GradleRIO" version "2020.3.2-beta-1"
          }
 
          // Define my targets (RoboRIO) and artifacts (deployable files)
