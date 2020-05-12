@@ -217,7 +217,7 @@ Robot
       
       Code that is run every robot packet when in a test run.
       
-      .. code-block::
+      .. code-block:: java
          :linenos:
          
          /**

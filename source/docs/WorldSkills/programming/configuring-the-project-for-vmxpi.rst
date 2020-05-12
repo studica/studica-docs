@@ -6,7 +6,7 @@ This guide will show the steps required to configure the project to be deployed 
 VS Code Changes
 ---------------
       
-In VS Code the build.gradle file needs to be changed or replaced to match the code in the tabs below. This will allow gradle to build and deploy for the VMXpi as a target. 
+In VS Code the ``build.gradle`` file needs to be changed or replaced to match the code in the tabs below. This will allow gradle to build and deploy for the VMXpi as a target. 
 
 .. hint:: Only the highlighted lines must be changed
 
