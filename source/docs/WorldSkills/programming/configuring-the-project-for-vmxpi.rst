@@ -57,7 +57,7 @@ In VS Code the build.gradle file needs to be changed or replaced to match the co
         
    .. tab:: Java 
    
-      .. code-block:: text
+      .. code-block:: groovy
          :linenos:
          :emphasize-lines: 3,15,47,52
 
@@ -132,7 +132,7 @@ In VS Code the build.gradle file needs to be changed or replaced to match the co
    
    .. tab:: C++
    
-      .. code-block:: text
+      .. code-block:: groovy
          :linenos:
          :emphasize-lines: 4,11,55
          
