@@ -5,7 +5,7 @@ Welcome to the Studica Robotics documentation page. Here you will find lots of i
 
 .. toctree::
    :maxdepth: 1
-   :caption: World Skills
+   :caption: WorldSkills
 
    docs/WorldSkills/software-setup/index
    docs/WorldSkills/programming/index
@@ -15,7 +15,7 @@ Welcome to the Studica Robotics documentation page. Here you will find lots of i
    :maxdepth: 1
    :caption: FRC Training
    
-   docs/FRCTraining/setup
+   docs/FRCTraining/software-setup/index
    docs/FRCTraining/programming
    docs/FRCTraining/troubleshooting
    
@@ -35,6 +35,20 @@ Welcome to the Studica Robotics documentation page. Here you will find lots of i
    docs/Titan/calibration
    docs/Titan/update
    docs/Titan/troubleshooting
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Java Curriculum
+   
+   docs/JavaCurriculum/unit1/index
+   docs/JavaCurriculum/unit2/index
+   docs/JavaCurriculum/unit3/index
+   docs/JavaCurriculum/unit4/index
+   docs/JavaCurriculum/unit5/index
+   docs/JavaCurriculum/unit6/index
+   docs/JavaCurriculum/unit7/index
+   docs/JavaCurriculum/unit8/index
+   docs/JavaCurriculum/unit9/index
    
 .. toctree::
    :maxdepth: 1
