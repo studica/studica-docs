@@ -3,7 +3,7 @@
 Online Installer 
 ================
 
-.. caution:: The online installation will download approximately 1.3GB worth of data, please maintain a stable connection while downloading
+.. caution:: The online installation will download approximately 1.5GB worth of data, please maintain a stable connection while downloading
 
 .. tabs::
 
@@ -67,7 +67,7 @@ Online Installer
          .. figure:: images/macOS/online-installation-1.png
             :align: center
                       
-         After dragging to the Applications folder the VS Code Icon will be visible
+         After dragging to the Applications folder the VS Code Icon will be visible in Applications
 
          .. image:: images/macOS/online-installation-2.png
             :align: center
@@ -124,7 +124,7 @@ Online Installer
          .. figure:: images/macOS/online-installation-8.png
             :align: center
             
-         Repeat this step for all the vsix files located in ``~/wpilib/2020/vsCodeExtensions``.
+         Repeat this step for all the ``vsix`` files located in ``~/wpilib/2020/vsCodeExtensions``.
          
          **They must be completed in this order:**
          
@@ -160,3 +160,94 @@ Online Installer
       The Linux installation requires multiple individual steps to be completed. 
       
       **Installing VS Code**
+      
+         VS Code needs to be installed before the extensions are installed. The preferred version of VS Code is ``1.41.1`` which can be downloaded `here <https://update.code.visualstudio.com/1.41.1/linux-deb-x64/stable>`__. This will try to open a file called ``code_1.41.1-1576681836_amd64.deb``. Chose to save the file instead of opening right away. 
+
+         .. figure:: images/linux/online-installation-1.png
+            :align: center
+            
+         The file ``code_1.41.1-1576681836_amd64.deb`` will be saved to the Downloads folder. Right click on the file and select ``Open With Other Application`` and chose ``Software Install``. When software install opens verify the Version number as ``1.41.1`` and hit ``Install``.
+         
+         .. figure:: images/linux/online-installation-2.png
+            :align: center
+            
+         There should be an Authentication prompt asking for the user to input their password. After the Authentication window the install will start and should only take a minute. 
+      
+      **WPILib Download**
+      
+         The latest release for the WPILib can be found `here <https://github.com/wpilibsuite/allwpilib/releases>`__ 
+         
+         Chose the Linux version ``WPILib_Linux-2020.3.2.tar.gz``
+         
+         .. figure:: images/linux/online-installation-3.png
+            :align: center
+            
+         The file will be placed in the Downloads folder. Right click on the ``WPILib_Linux-2020.3.2.tar.gz`` and select ``Extract Here``. This will extract the contents to the Downloads folder.
+         
+         Open Terminal and run these commands.
+         
+         .. code-block:: bash
+         
+            mkdir -p ~/wpilib/2020
+            
+            mv -v ~/Downloads/WPILib_Linux-2020.3.2/* ~/wpilib/2020
+            
+            python3 ~/wpilib/2020/tools/ToolsUpdater.py
+            
+         This will move everything to the correct location and run the updater for the tools. 
+         
+      **VS Code Extensions**
+      
+         For VS Code to be used for robotics the extensions from WPILib need to be installed. 
+         
+         1. Open VS Code using terminal by typing in ``code``.
+         2. To open the command palette use ``Ctrl+Shift+P`` or hit ``F1``.
+         3. In the command palette run the command ``Extensions: Install From VSIX``.
+         
+            .. figure:: images/linux/online-installation-4.png
+               :align: center
+               
+         4. Extensions can be found in ``~/wpilib/2020/vsCodeExtensions``
+         
+            .. figure:: images/linux/online-installation-5.png
+               :align: center
+               
+         **Install the Extensions in this Order**
+         
+            1. Cpp.vsix
+            2. JavaLang.vsix
+            3. JavaDeps.vsix
+            4. JavaDebug.vsix
+            5. WPILib.vsix 
+            
+         .. note:: After installing an extension it's recommended to close and reopen VS Code.
+
+      **Getting VS Code to use Java 11**
+
+         VS Code needs to be pointed to where the WPILib Java Home is. This is simply done by running the following command ``WPILib: Set VS Code Java Home to FRC Home``.
+         
+         .. image:: images/linux/online-installation-6.png
+            :align: center
+      
+      **Vulkan Installation**
+      
+         For the simulation GUI to run, Vulkan is required. To install Vulkan open terminal and run this command.
+         
+         .. code-block:: bash
+         
+            sudo apt-get install libvulkan1
+      
+      **What was just Installed**
+      
+         -  *Visual Studio Code* - The preferred and supported IDE for robot code development. 
+         -  *C++ Compiler* - Toolchains required for building C++ code.
+         -  *Java JDK/JRE* - Specific version of the JDK/JRE that is used to build code. 
+         -  *Gradle* - Specific version of Gradle used for building and deploying Java or C++ code
+         -  *WPILib Tools* - Tools used for robot enhancement
+         -  *WPILib Dependencies* - OpenCV, etc.
+         -  *VS Code Extensions* - WPILib extensions for robot code development
+         -  *Vulkan* - Low overhead graphics API
+
+        
+         
+         
