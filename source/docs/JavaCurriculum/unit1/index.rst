@@ -7,3 +7,4 @@ What is computer programming? Why do we do it? How does programming apply to rob
    :maxdepth: 1
    
    lesson1/index
+   lesson2/index
