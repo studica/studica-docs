@@ -41,14 +41,6 @@ Welcome to the Studica Robotics documentation page. Here you will find lots of i
    :caption: Java Curriculum
    
    docs/JavaCurriculum/unit1/index
-   docs/JavaCurriculum/unit2/index
-   docs/JavaCurriculum/unit3/index
-   docs/JavaCurriculum/unit4/index
-   docs/JavaCurriculum/unit5/index
-   docs/JavaCurriculum/unit6/index
-   docs/JavaCurriculum/unit7/index
-   docs/JavaCurriculum/unit8/index
-   docs/JavaCurriculum/unit9/index
    
 .. toctree::
    :maxdepth: 1
