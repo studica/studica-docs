@@ -8,3 +8,4 @@ What is computer programming? Why do we do it? How does programming apply to rob
    
    lesson1/index
    lesson2/index
+   lesson3/index
