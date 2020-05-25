@@ -21,7 +21,7 @@ Below are a list of exercises to complete. Answers will be provided in the next 
 
    RRRRR    OOO    BBBBB    OOO   TTTTT
     R  R   O   O   B   B   O   O    T 
-    RRRR  O     O  BBBBB  O     O   T 
+    RRRR  O     O  BBBB   O     O   T 
     R  R   O   O   B   B   O   O    T 
    RR   R   OOO    BBBBB    OOO     T 
    
@@ -66,7 +66,7 @@ Example the user inputted 30°C
 
 .. code-block:: text
 
-   Enter the temperature to covert in °C: 30
+   Enter the temperature to convert in °C: 30
    30°C is equal to 86°F
    
 .. note:: A user might input a value such as 30.5

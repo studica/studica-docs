@@ -148,7 +148,7 @@ Challenge Question
       public static void main(String[] args)
       {
          Scanner input = new Scanner(System.in);
-         System.out.print("Enter the temperature to covert in °C: ");
+         System.out.print("Enter the temperature to convert in °C: ");
          double temp = input.nextDouble();
          System.out.println(temp + "°C is equal to " + ((9.0 / 5.0) * temp + 32) + "°F");
       }
