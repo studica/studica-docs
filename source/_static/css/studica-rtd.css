@@ -27,7 +27,8 @@
 
 /* set color of left side bar */
 .wy-nav-side,.wy-side-nav-search,.wy-nav-top {
-	background: #005eb8;
+	/*background: #0079c1; /*005eb8 */
+   background: #005eb8;
 }
 
 /* Change caption color to be more legible */

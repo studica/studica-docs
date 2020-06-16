@@ -58,7 +58,7 @@ master_doc = "index"
 html_theme = 'sphinx_rtd_theme'
 
 # Sidebar logo
-html_logo = "assets/studicaLogo.jpg"
+html_logo = "assets/logo.png"
 
 # URL favicon
 html_favicon = "assets/Studica_Favicon.ico"
