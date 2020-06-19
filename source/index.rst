@@ -18,7 +18,7 @@ Welcome to the Studica Robotics documentation page. Here you will find lots of i
    
    docs/FRCTraining/software-setup/index
    docs/FRCTraining/robotics-and-control-systems/index
-   docs/FRCTraining/programming
+   docs/FRCTraining/programming/index
    docs/FRCTraining/troubleshooting
    
 .. toctree::
