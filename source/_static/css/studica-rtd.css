@@ -46,7 +46,6 @@
    background-color: #C3E7FF;
 }
 
-/* Hide color bar on mobile */
 @media screen and (max-width: 768px) {
 
 	.wy-nav-content-wrap {
