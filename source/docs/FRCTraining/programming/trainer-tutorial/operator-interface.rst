@@ -82,7 +82,7 @@ Now that the constructor is made, we can create a method for each input from the
    public double getRightDriveY()
    {
       double joy = drivePad.getRawAxis(GamepadConstants.RIGHT_Y);
-      if(Math.abs(joy) < 0.05)
+      if(Math.abs(joy) <= 0.05)
          return 0.0
       else
          return joy;
@@ -101,7 +101,7 @@ A lot is going on in this method.
 
 .. important:: getRawAxis returns a value of -1 to 1. 
 
-4. When joysticks are idle, the value reported is almost always not precisely 0. This is due to wear and tear, along with the design of joysticks. To overcome this, a dead zone is used. In this case, a simple case statement is created to see if the absolute value of joy is less than 0.05. With an absolute range of 0 to 1, 0.05 is 5%. This means that if the value of joy is in the range of -0.5 to 0.5, instead of returning the actual value, it will report 0.0. 
+4. When joysticks are idle, the value reported is almost always not precisely 0. This is due to wear and tear, along with the design of joysticks. To overcome this, a dead zone is used. In this case, a simple case statement is created to see if the absolute value of joy is less than 0.05. With an absolute range of 0 to 1, 0.05 is 5%. This means that if the value of joy is in the range of -0.05 to 0.05, instead of returning the actual value, it will report 0.0. 
 
 The last three joystick methods are similar to getRightDriveY, just that the method name and GamepadConstants constant changes. 
 
@@ -114,7 +114,7 @@ The last three joystick methods are similar to getRightDriveY, just that the met
    public double getRightDriveY()
    {
       double joy = drivePad.getRawAxis(GamepadConstants.RIGHT_Y);
-      if(Math.abs(joy) < 0.05)
+      if(Math.abs(joy) <= 0.05)
         return 0.0;
       else  
         return joy;
@@ -126,7 +126,7 @@ The last three joystick methods are similar to getRightDriveY, just that the met
    public double getRightDriveX()
    {
       double joy = drivePad.getRawAxis(GamepadConstants.RIGHT_X);
-      if(Math.abs(joy) < 0.05)
+      if(Math.abs(joy) <= 0.05)
         return 0.0;
       else
         return joy;
@@ -138,7 +138,7 @@ The last three joystick methods are similar to getRightDriveY, just that the met
     public double getLeftDriveY()
     {
        double joy = drivePad.getRawAxis(GamepadConstants.LEFT_Y);
-       if(Math.abs(joy) < 0.05)
+       if(Math.abs(joy) <= 0.05)
          return 0.0;
        else  
          return joy;
@@ -150,7 +150,7 @@ The last three joystick methods are similar to getRightDriveY, just that the met
     public double getLeftDriveX()
     {
        double joy = drivePad.getRawAxis(GamepadConstants.LEFT_X);
-       if(Math.abs(joy) < 0.05)
+       if(Math.abs(joy) <= 0.05)
          return 0.0;
        else
          return joy;

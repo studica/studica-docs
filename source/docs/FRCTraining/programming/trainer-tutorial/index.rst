@@ -18,6 +18,8 @@ This tutorial will show and explain how to program the `Studica FRC Training Rob
    populating-the-robotmap
    creating-a-gamepad-constants-class
    operator-interface
+   creating-the-drivetrain-subsystem
+   updating-robot
    
    
    
