@@ -12,31 +12,47 @@ Below are the various status light blink codes and the meaning behind them.
      - Blink 1
      - Blink 2
      - Blink 3
-   * - Titan Off
+   * - Titan Off / Update 
      - .. image:: images/titan-status-light-5.png
+         :align: center
      - .. image:: images/titan-status-light-5.png
+         :align: center
      - .. image:: images/titan-status-light-5.png
+         :align: center
    * - No Communication 
      - .. image:: images/titan-status-light-1.png
+         :align: center
      - .. image:: images/titan-status-light-1.png
+         :align: center
      - .. image:: images/titan-status-light-1.png
+         :align: center
    * - CAN Detected, Robot Disabled 
      - .. image:: images/titan-status-light-1.png
+         :align: center
      - .. image:: images/titan-status-light-2.png
+         :align: center
      - .. image:: images/titan-status-light-3.png 
+         :align: center
    * - CAN Detected, Robot Enabled 
      - .. image:: images/titan-status-light-4.png
+         :align: center
      - .. image:: images/titan-status-light-4.png
+         :align: center
      - .. image:: images/titan-status-light-4.png
+         :align: center
    * - Fault Detected  
      - .. image:: images/titan-status-light-6.png
+         :align: center
      - .. image:: images/titan-status-light-6.png
+         :align: center
      - .. image:: images/titan-status-light-6.png
+         :align: center
      
-Titan Off
----------
+Titan Off / Update
+------------------
 
-When the Titan is off, there will be no flashing light. If the Titan is on, and the light is off, there could be a problem with the microcontroller or the LED. 
+When the Titan is off, there will be no flashing light. The light will also be off if set to update mode.  If the Titan is on, not in update mode, and the light is off, there could be a problem with the microcontroller or the LED. 
+
 
 No Communication
 ----------------

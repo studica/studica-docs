@@ -1,7 +1,7 @@
 Download Update App
 ===================
 
-To download the latest update app ``V1.0`` click `here <https://www.studica.com/downloads/Studica-Robotics/FRC-WSR/Titan/SCU/SCUSetup.exe>`__.
+To download the latest update app ``V2.0.0.14`` click `here <https://www.studica.com/downloads/Studica-Robotics/FRC-WSR/Titan/SCU/SCUSetup.exe>`__.
 
 .. important:: This app is still in early development and there will be bugs. Report any bugs here(link not made yet).
 

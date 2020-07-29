@@ -34,6 +34,7 @@ Welcome to the Studica Robotics documentation page. Here you will find lots of i
    :maxdepth: 1
    :caption: Titan
    
+   docs/Titan/titan
    docs/Titan/download-update-app
    docs/Titan/using-the-update-app
    docs/Titan/titan-status-light
