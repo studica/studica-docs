@@ -1,16 +1,7 @@
 Studica Robotics
 ================
 
-Welcome to the Studica Robotics documentation page. Here you will find lots of information and tutorials regarding WorldSkills and FIRST Training.
-
-.. toctree::
-   :maxdepth: 1
-   :caption: WorldSkills
-
-   docs/WorldSkills/software-setup/index
-   docs/WorldSkills/robotics-and-control-systems/index
-   docs/WorldSkills/programming/index
-   docs/WorldSkills/troubleshooting
+Welcome to the Studica Robotics documentation page. Here you will find lots of information and tutorials regarding FIRST Training.
 
 .. toctree::
    :maxdepth: 1
