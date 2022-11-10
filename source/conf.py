@@ -18,9 +18,9 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'Studica Robotics'
-copyright = '2020, Studica'
-author = 'Studica'
+project = 'Studica FTC Docs'
+copyright = '2022, Studica LTD and FIRST® Canada'
+author = 'Studica and FIRST® Canada'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
@@ -34,7 +34,9 @@ release = '0.0.1'
 extensions = [
     'sphinx_tabs.tabs',
     'sphinx_rtd_theme',
-    'notfound.extension'
+    'notfound.extension',
+    'sphinx_design',
+    'sphinx-prompt'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -73,6 +75,7 @@ html_theme_options = {
         'sticky_navigation': False,
         'titles_only': True
 }
+
 
 from sphinx.builders.html import StandaloneHTMLBuilder
 StandaloneHTMLBuilder.supported_image_types = [

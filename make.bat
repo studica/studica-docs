@@ -9,8 +9,11 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 set BUILDDIR=build
+set AUTOBUILD=sphinx-autobuild
+set HTMLBUILDDIR=build/html
 
-if "%1" == "" goto help
+if "%1" == "help" goto help
+if "%1" == "autobuild" goto autobuild 
 
 %SPHINXBUILD% >NUL 2>NUL
 if errorlevel 9009 (
@@ -30,6 +33,10 @@ goto end
 
 :help
 %SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+
+:autobuild
+    @%AUTOBUILD% %SOURCEDIR% %HTMLBUILDDIR%
+	goto :EOF
 
 :end
 popd

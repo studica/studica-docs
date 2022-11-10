@@ -1,31 +1,27 @@
-![Documentation Status](https://readthedocs.org/projects/studica-docs/badge/?version=latest)
-# studica-docs
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
-The Studica Documentation is available in these domains:
-- https://docs.studica.com/en/latest
-- https://studica-docs.readthedocs.io/en/latest
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
-After pushing an update to the repo the readthedocs plugin will build the project and publish. Note it it may take up to 10 min before the changes are shown!
+# Studica Docs
+ SR FTC Docs
 
-## Building Locally
 
-It is recommended to run the changes made locally before pushing to here for an update. To run the documentation locally python 3.7+ is required. Python 3.7+ can be downloaded [here](https://www.python.org/downloads/). 
+ Local Build Instructions
+ ========================
 
-After python is downloaded run the following commands in command prompt.
+ Follow the instructions below to build the docs locally.
 
-- ``pip install "Sphinx==3.03"``
-- ``pip install sphinx-tabs`` 
-- ``pip install sphinx-rtd-theme``
-- ``pip install sphinx-notfound-page``
+ Requirements
+ ------------
+ * [Python 3.9](https://www.python.org/downloads/)
+ 
+ Once Python is installed run the following command  
+ `pip install -r source/requirements.txt`
 
-Clone the repo using git into your local system. To build the docs open command prompt and navigate to the folder where the Makefile is located. In that folder run ``make html``. This will show a display of the compilation and if completed without errors there will be a new folder called build. To open the local version of the docs, open the index.html file located inside build/html/
+ Building
+ --------
 
-**Note** you need to run ``make html`` every time you make a change.
-
-If you get a **app.add_javascript() is deprecated** error follow these steps:
-
-1. Locate the tabs.py folder. Example path ``C:\python\lib\site-packages\sphinx_tabs\``
-2. Open tabs.py using a text editor.
-3. Navigate to line 341 or search for ``app.add_javascript(path)``
-4. Replace ``app.add_javascript(path)`` with ``app.add_js_file(path)``
-5. Save and close. 
+ Auto builder is the best solution to building the docs.  
+ Run `make autobuild` in the root project folder.  
+ This will create a live server at `http://127.0.0.1:8000` or `localhost:8000`

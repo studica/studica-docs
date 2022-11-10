@@ -28,17 +28,23 @@
 /* set color of left side bar */
 .wy-nav-side,.wy-side-nav-search,.wy-nav-top {
 	/*background: #0079c1; /*005eb8 */
-   background: #005eb8;
+   background: #231F20;
 }
 
 /* Change caption color to be more legible */
 .wy-menu > .caption > span.caption-text {
-   color: #F7E341;
+   color: #F57E25;
 }
 
 /* Change the version color to match caption color */
 .wy-side-nav-search>div.version {
-   color: #F7E341;
+   color: #F57E25;
+}
+
+/* Card header color */
+.sd-card-header {
+	color: #F57E25 !important;
+	background-color: #231F20 !important;
 }
 
 /* Get rid of that ugly yellow highlight color and replace with something more appealing to the eye */
