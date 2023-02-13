@@ -19,8 +19,8 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'Studica FTC Docs'
-copyright = '2022, Studica LTD and FIRST® Canada'
-author = 'Studica and FIRST® Canada'
+copyright = '2022, Studica Limited and FIRST® Robotics Canada'
+author = 'Studica and FIRST® Robotics Canada'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
@@ -85,4 +85,8 @@ StandaloneHTMLBuilder.supported_image_types = [
 ]
 
 def setup(app):
+    # custom css
     app.add_css_file('css/studica-rtd.css')
+    
+    # Make links open in another tab so docs are still open
+    app.add_js_file('js/studica-rtd.css')

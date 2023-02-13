@@ -1,7 +1,7 @@
 Welcome
 =======
 
-Welcome to the Studica Robotics and *FIRST®* Canada documentation on the *FIRST®* Tech Challenge. Here you will find lots of information and tutorials on robotics related to FTC.
+Welcome to the Studica Robotics and *FIRST®* Robotics Canada documentation on the *FIRST®* Tech Challenge. Here you will find lots of information and tutorials on robotics related to FTC.
 
 .. note:: These docs are a work in progress. :material-outlined:`mood;2em`
 
@@ -82,6 +82,14 @@ Welcome to the Studica Robotics and *FIRST®* Canada documentation on the *FIRST
       ^^^
       Want to contribute to this project? Check out this section. 
 
+   .. grid-item-card::
+      :link: docs/Teacher-Aid/index
+      :link-type: doc
+
+      :material-outlined:`school;2em` Teacher Aid
+      ^^^
+      FTC Class Pack "Getting Started" Guide for Teachers.
+
    .. grid-item-card:: 
       :link: https://github.com/studica/studica-docs/issues
       :link-type: url
@@ -146,6 +154,13 @@ Welcome to the Studica Robotics and *FIRST®* Canada documentation on the *FIRST
    :hidden:
    
    docs/Contributing/style-guide
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Teacher Aid
+   :hidden:
+
+   docs/Teacher-Aid/index
    
 .. toctree::
    :maxdepth: 1
