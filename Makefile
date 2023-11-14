@@ -18,7 +18,7 @@ help:
 .PHONY: help Makefile
 
 autobuild:
-    @$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR)
+	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR)
 .PHONY: help autobuild Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new

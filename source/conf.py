@@ -19,7 +19,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'Studica FTC Docs'
-copyright = '2022, Studica Limited and FIRST® Robotics Canada'
+copyright = '2023, Studica Limited and FIRST® Robotics Canada'
 author = 'Studica and FIRST® Robotics Canada'
 
 # The full version, including alpha/beta/rc tags
