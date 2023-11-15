@@ -61,7 +61,7 @@ Tools Required
               :align: center
               :width: 20%
         * - NeveRest Classic 40
-          - am-4609b
+          - am-2964b
           - 2
           - .. image:: images/bom/neverest-classic.png
               :align: center

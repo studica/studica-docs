@@ -50,3 +50,4 @@ The basic bot is a simple robot that can built from the Studica Robotics FTC Sta
     :hidden:
 
     Chassis/index
+    OMS/index
