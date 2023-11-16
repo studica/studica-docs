@@ -30,7 +30,7 @@ Step 11:
 Instructions
 ------------
 
-- Using 4 x M3 SHCS and 4 x M3 Nyloc Nuts screw the L Bracket of the arm assembly to the basic bot chassis. The nyloc nuts should be on the inside of the chassis U-Channel.
+- Using 4 x M3 SHCS and 4 x M3 Nyloc Nuts, screw the L Bracket of the arm assembly to the basic bot chassis. The nyloc nuts should be on the inside of the chassis U-Channel.
 
 .. figure:: images/BasicBot19.png
       :align: center

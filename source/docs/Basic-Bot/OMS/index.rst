@@ -1,7 +1,7 @@
 OMS Build Guide
 ===============
 
-The OMS (object management system) or arm of the basic bot is a simple construction. The assembly can take 10 min to 1 hour based on skill level.
+The basic bot's OMS (object management system) or arm is a simple construction. The assembly can take 10 min to 1 hour, based on skill level.
 
 Tools Required
 --------------
@@ -186,9 +186,15 @@ Tools Required
           - .. image:: ../Chassis/images/bom/m3-10-bhcs.png
               :align: center
               :width: 10%
+        * - M3 x 8mm SHCS
+          - 76200
+          - 2
+          - .. image:: ../Chassis/images/bom/m3-10-shcs.png
+              :align: center
+              :width: 10%
         * - M3 x 10mm SHCS
           - 76201
-          - 44
+          - 46
           - .. image:: ../Chassis/images/bom/m3-10-shcs.png
               :align: center
               :width: 10%
@@ -206,7 +212,7 @@ Tools Required
               :width: 10%
         * - M3 Kep Nut
           - 76204
-          - 8
+          - 10
           - .. image:: ../Chassis/images/bom/m3-kep-nut.png
               :align: center
               :width: 10%
@@ -246,3 +252,8 @@ Tools Required
   step9
   step10
   step11
+  step12
+  step13
+  step14
+  step15
+  step16

@@ -39,14 +39,14 @@ Instructions
 ------------
 
 - Slide the Orbital Motor Mount onto the NeveRest 51 Motor.
-- Using 4 x M3 SHCS screw the motor mount into the motor.
+- Using 4 x M3 SHCS, screw the motor mount into the motor.
 - Slide the 13 Tooth Bevel Gear onto the D-Shaft of the motor.
 
 .. figure:: images/BasicBot3.png
     :align: center
     :width: 70%
 
-- Try to keep it loose by only tightening a little bit. Set screws highlighted in red, use the pink hex key(2mm) to tighten.
+- Try to keep it loose by only tightening a little bit. Set screws are highlighted in red. Use the pink hex key(2mm) to tighten.
 
 .. figure:: images/BasicBot4.png
     :align: center

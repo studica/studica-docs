@@ -72,8 +72,8 @@ Step 8:
 Instructions
 ------------
 
-- Assmemble all the assemblies as shown. 
-- Tighten the set screws and collar clamps fully **EXCEPT FOR THE SET SCREW WITH THE 26TOOTH BEVEL GEAR**.
+- Assemble all the assemblies as shown. 
+- Tighten the set screws and collar clamps fully **EXCEPT FOR THE SET SCREW WITH THE 26 TOOTH BEVEL GEAR**.
 
 .. figure:: images/BasicBot11.png
       :align: center
@@ -89,4 +89,4 @@ Instructions
 .. |pic2| image:: images/BasicBot13.png
     :width: 40%
 
-- With the assmebly complete as shown above align the bevel gears so they are meshing and tighten the setscrews. 
+- With the assembly complete, as shown above, align the bevel gears so they are meshing and tighten the setscrews. 

@@ -28,7 +28,7 @@ Step 4:
 Instructions
 ------------
 
-- Slide the Motor Assembly from step 3 into the 240mm U-Channel Assembly. The bevel gear should be facing away from the End Piece Plate and L Bracket.
+- Slide the Motor Assembly from step 3 into the 240mm U-Channel assembly. The bevel gear should be facing away from the End Piece Plate and L Bracket.
   
 .. figure:: images/BasicBot5.png
       :align: center
@@ -36,7 +36,7 @@ Instructions
 
 |
 
-- Using 6 x M3 SHCS screw the Orbital Motor Mount to the 240mm U-Channel.
+- Using 6 x M3 SHCS, screw the Orbital Motor Mount to the 240mm U-Channel.
 
 |pic1| |pic2|
 

@@ -36,7 +36,7 @@ Instructions
 
 |
 
-- From the bottom inside of the chassis screw the chassis to the End Piece Plate of the arm assembly using 8 x M3 SHCS.
+- From the bottom inside of the chassis, screw the chassis to the End Piece Plate of the arm assembly using 8 x M3 SHCS.
 
 |pic1| |pic2|
 
