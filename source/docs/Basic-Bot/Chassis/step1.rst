@@ -17,7 +17,7 @@ Step 1: Start Build
               :align: center
               :width: 25%
         * - End Piece Plate
-          - 76015
+          - 76143
           - 4
           - .. image:: images/bom/end-plate.png
               :align: center
