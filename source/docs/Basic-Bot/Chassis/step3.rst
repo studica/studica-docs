@@ -49,7 +49,7 @@ Instructions
 ------------
 
 - Pre-load the M4 x 8mm SHCS into the Enhanced Wheel Hub. **Be careful not to tighten the screws**
-- Pre-load the M3 x 8mm SHCS into the Collar Clamp. **Be careful not to righten the screw**
+- Pre-load the M3 x 8mm SHCS into the Collar Clamp. **Be careful not to tighten the screw**
 - Place the Collar Clamp on the edge of the 6mm D-Shaft and fully tighten the M3 screw down to clamp the Collar Clamp to the D-Shaft. **Take note to ensure the Collar Clamp and Shaft are flush at one end**
 - Slide a 2mm Spacer from the other end of the shaft down to the Collar Clamp.
 - Slide the 14mm Bearing from the other end of the shaft down to the spacer. **The Flange of the bearing should be touching the spacer**
